@@ -8,7 +8,9 @@
 <body>
     <header>
         <h1>welcome to my page</h1>
-        <a href="web2.html" target="_blank">web2</a>
+        <h2>web about cars</h2>
+        <a href="web2.html" target="_blank">web2</a> <br>
+        <a href="https://google.com" target="_blank">ir a google</a>
     </header>
     <section>
         <article>
@@ -19,6 +21,41 @@
                 <li>ferrai</li>
                 <li>mustang</li>
             </ol>
+            <hr>
+            <!-- the span tag is for to identify text or tags between another tags--> 
+        </article>
+        <article>
+            <h3>Porsche</h3>
+            <p>Porsche 911</p>
+            <img src="img/porsche.jpg">
+            <img src="https://media3.speedcafe.com/wp-content/uploads/2020/10/Porsche-911-Turbo-S-012-scaled.jpg" height="233">
+            <p>The Porsche 911 is a two-door 2+2 high performance rear-engined sports car introduced in September 1964 by Porsche AG of Stuttgart, Germany.</p>
+            <hr>
+        </article>
+        <article>
+            <h3>maserati</h3>
+            <p>Gran turismo mc</p>
+            <img src="https://th.bing.com/th/id/R.f1be7e9326111e94de25837891b24738?rik=dj8nuFg5O21UTg&pid=ImgRaw&r=0" width="330">
+            <p>The Maserati GranTurismo and GranCabrio (Tipo M145) are a series of a grand tourers produced by the Italian automobile manufacturer Maserati from 2007 to 2019. They succeeded the 2-door V8 grand tourers offered by the company, the Maserati Coupé, and Spyder.
+                 The model was initially equipped with a 4.2-litre (4,244 cc (259.0 cu in)) V8 engine developed in conjunction with Ferrari.
+            </p>
+            <hr>
+        </article>
+        <article>
+            <h3>ferrai</h3>
+            <p>laferrai</p>
+            <img src="https://th.bing.com/th/id/OIP.shFYbDjwP598quHw5vpR0AHaFg?pid=ImgDet&rs=1">
+            <p>LaFerrari, project name F150 is a limited production mid-engine mild hybrid sports car built by Italian automotive manufacturer Ferrari.
+                 LaFerrari means "The Ferrari" in Italian and some other Romance languages, in the sense that it is the "definitive" Ferrari.
+            </p>
+            <hr>
+        </article>
+        <article>
+            <h3>ford</h3>
+            <p>ford mustang</p>
+            <img src="img/mustang.jpg">
+            <p>The Ford Mustang is a series of American automobiles manufactured by Ford. In continuous production since 1964, the Mustang is currently the longest-produced Ford car nameplate.</p>
+            <hr>
         </article>
         <article>
             <table>
@@ -49,14 +86,55 @@
                         <td>2</td>
                         <td>600.000$</td>
                     </tr>
+                    <tr>
+                        <td>mustang</td>
+                        <td>150.000$</td>
+                        <td>2</td>
+                        <td>300.000$</td>
+                    </tr>
                 </tbody>
                 <tfoot>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>Total=1'500.000</td>
+                    <td>Total=1'800.000</td>
                 </tfoot>
             </table>
+        </article>
+        <br><br>
+        <article>
+            <form action="POST">
+                <label for="name">Name</label>
+                <input id="name" name="Name" placeholder="trebor">
+                <br>
+                <label for="lastname">Last name</label>
+                <input id="lastname" name="Lastname" placeholder="brown">
+                <br>
+                <label for="email">email</label>
+                <input  type="email" id="email" name="email" placeholder="treborbrown@gmail.com">
+                <br>
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" placeholder="1234">
+                <br>
+                <label>2</label>
+                <input type="radio">
+                <br>
+                <label>what time is it</label>
+                <input type="time">
+                <br>
+                <label>color</label>
+                <input type="color">
+                <br>
+                <label>3</label>
+                <input type="checkbox">
+                <br>
+                <input type="file">
+                <br><br>
+                <label for="comentario">comentario</label><br>
+                <textarea id="comentario" name="comentario" placeholder="ingrese comentario" rows="15" cols="40"></textarea>
+                <br><br>
+                <input type="submit">
+            </form>
         </article>
     </section>
     <footer></footer>
