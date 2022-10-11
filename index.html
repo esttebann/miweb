@@ -16,10 +16,24 @@
         <article>
             <h3>nice cars</h3>
             <ol>
-                <li>porsche</li>
+                <li value="70">porsche</li>
+                <ul>
+                    <li>911</li>
+                    <li>caiman</li>
+                </ul>
                 <li>masserati</li>
-                <li>ferrai</li>
-                <li>mustang</li>
+                <ul>
+                    <li>gran-turismo</li>
+                </ul>
+                <li>ferrari</li>
+                <ul>
+                    <li>laferrai
+                    <li>italia</li>
+                </ul>
+                <li>ford</li>
+                <ul>
+                    <li>mustang</li>
+                </ul>
             </ol>
             <hr>
             <!-- the span tag is for to identify text or tags between another tags--> 
@@ -81,7 +95,7 @@
                         <td>150.000$</td>
                     </tr>
                     <tr>
-                        <td>ferrai</td>
+                        <td>ferrari</td>
                         <td>300.000$</td>
                         <td>2</td>
                         <td>600.000$</td>
@@ -103,7 +117,9 @@
         </article>
         <br><br>
         <article>
-            <form action="POST">
+            <form action="" method="POST">
+                <!--(action) es para nombrar el servidor o la app donde se va a enviar el formulario-->
+                <!--para enviar los datos de una forma segura se necesitan certificados de encriptacion o encriptados, algo asi(hola mundo)-->
                 <label for="name">Name</label>
                 <input id="name" name="Name" placeholder="trebor">
                 <br>
@@ -133,10 +149,17 @@
                 <label for="comentario">comentario</label><br>
                 <textarea id="comentario" name="comentario" placeholder="ingrese comentario" rows="15" cols="40"></textarea>
                 <br><br>
-                <input type="submit">
+                <button>submit</button>
+                <button type="reset">reset</button>
+                <!--el button tipo (button) se persnaloza con javascript para darle la funcionalidad que nosotros queramos-->
             </form>
         </article>
+        <div>hello, i'm a div</div>
+        <!--los div's de utilizan para dividir o contener paretd eel codigo para despues modificarlo con css o jv script-->
     </section>
-    <footer></footer>
+    <footer>
+        <a href="mailto:stebansanchez@gmail.com">contactame</a>
+        <p>copyright 2022</p>
+    </footer>
 </body>
 </html>
